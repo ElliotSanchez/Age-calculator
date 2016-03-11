@@ -20,7 +20,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your age?" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1jP-O4-Osj">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="alert"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your age?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gd3-hI-tn3">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -32,9 +32,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a-road-disappears-into-the-distance-taylor-s-kennedy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gph-wG-r3f">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="330" width="600" height="470"/>
-                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5y-Xj-cCw">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -51,9 +48,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="257" width="600" height="41"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -84,21 +78,21 @@
                                 <exclude reference="tkn-Hd-V2T"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="wka-zG-bu9"/>
+                                <exclude reference="peg-Eb-Jrr"/>
+                                <exclude reference="tT8-Oi-7pf"/>
+                                <exclude reference="4oP-4v-xXj"/>
+                                <exclude reference="qbi-aH-p1V"/>
                                 <exclude reference="RSi-6F-bK0"/>
                                 <exclude reference="s2u-tS-rgM"/>
                                 <exclude reference="AKJ-JC-crq"/>
                                 <exclude reference="GRM-fW-bKQ"/>
                                 <exclude reference="i8B-Rf-UZO"/>
                                 <exclude reference="tm8-Bn-JCI"/>
-                                <exclude reference="peg-Eb-Jrr"/>
-                                <exclude reference="tT8-Oi-7pf"/>
-                                <exclude reference="4oP-4v-xXj"/>
-                                <exclude reference="qbi-aH-p1V"/>
                                 <exclude reference="1pe-gX-uAH"/>
                                 <exclude reference="hnj-TE-Wf8"/>
                                 <exclude reference="kAE-y7-Hbk"/>
                                 <exclude reference="mWT-Xj-1aN"/>
-                                <exclude reference="wka-zG-bu9"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -110,21 +104,21 @@
                                 <include reference="tkn-Hd-V2T"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="wka-zG-bu9"/>
+                                <include reference="peg-Eb-Jrr"/>
+                                <include reference="tT8-Oi-7pf"/>
+                                <include reference="4oP-4v-xXj"/>
+                                <include reference="qbi-aH-p1V"/>
                                 <include reference="RSi-6F-bK0"/>
                                 <include reference="s2u-tS-rgM"/>
                                 <include reference="AKJ-JC-crq"/>
                                 <include reference="GRM-fW-bKQ"/>
                                 <exclude reference="i8B-Rf-UZO"/>
                                 <exclude reference="tm8-Bn-JCI"/>
-                                <include reference="peg-Eb-Jrr"/>
-                                <include reference="tT8-Oi-7pf"/>
-                                <include reference="4oP-4v-xXj"/>
-                                <include reference="qbi-aH-p1V"/>
                                 <exclude reference="1pe-gX-uAH"/>
                                 <exclude reference="hnj-TE-Wf8"/>
                                 <include reference="kAE-y7-Hbk"/>
                                 <include reference="mWT-Xj-1aN"/>
-                                <exclude reference="wka-zG-bu9"/>
                             </mask>
                         </variation>
                     </view>
