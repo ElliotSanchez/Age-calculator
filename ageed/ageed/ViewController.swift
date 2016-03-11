@@ -14,6 +14,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var nextAgeOutputLabel: UILabel!
+    
     @IBOutlet weak var textField: UITextField!
     
     @IBAction func submit(sender: AnyObject) {
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
             
             var nextAge = currentAge + 1
             
-            label.text = "Next year you will be \(nextAge) years old."
+            nextAgeOutputLabel.text = "Next year you will be \(nextAge) years old."
             
         } else {
             label.text = "Enter your age"
