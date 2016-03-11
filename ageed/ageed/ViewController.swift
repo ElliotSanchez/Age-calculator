@@ -22,7 +22,11 @@ class ViewController: UIViewController {
         
         if(textField.text != "") {
 
-            label.text = textField.text
+            var currentAge = Int(textField.text!)!
+            
+            var nextAge = currentAge + 1
+            
+            label.text = "Next year you will be \(nextAge) years old."
             
         } else {
             label.text = "Enter your age"

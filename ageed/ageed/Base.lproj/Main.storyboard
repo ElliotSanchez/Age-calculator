@@ -21,9 +21,6 @@
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="160" y="180" width="280" height="30"/>
-                                </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your age?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gd3-hI-tn3">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -32,7 +29,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="191" y="94" width="219" height="56"/>
+                                    <rect key="frame" x="193" y="95" width="216" height="35"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a-road-disappears-into-the-distance-taylor-s-kennedy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gph-wG-r3f">
@@ -49,7 +46,7 @@
                                     <color key="titleColor" red="0.35629850629999998" green="0.71943932769999996" blue="0.36347040530000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="258" y="234" width="85" height="30"/>
+                                    <rect key="frame" x="261" y="207" width="80" height="45"/>
                                 </variation>
                                 <connections>
                                     <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gi0-Vj-Pav"/>
@@ -77,14 +74,14 @@
                                 <exclude reference="c5y-Xj-cCw"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="BqK-cK-tjd"/>
-                                <exclude reference="RSi-6F-bK0"/>
                                 <exclude reference="3Gw-bW-tnS"/>
                                 <exclude reference="YNc-Zz-tfX"/>
                                 <exclude reference="peg-Eb-Jrr"/>
                                 <exclude reference="3Wn-Ip-GbU"/>
                                 <exclude reference="aoM-Ov-8PS"/>
                                 <exclude reference="qbi-aH-p1V"/>
+                                <exclude reference="BqK-cK-tjd"/>
+                                <exclude reference="RSi-6F-bK0"/>
                                 <exclude reference="1pe-gX-uAH"/>
                             </mask>
                         </variation>
@@ -96,14 +93,14 @@
                                 <include reference="c5y-Xj-cCw"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="BqK-cK-tjd"/>
-                                <include reference="RSi-6F-bK0"/>
                                 <include reference="3Gw-bW-tnS"/>
                                 <include reference="YNc-Zz-tfX"/>
                                 <include reference="peg-Eb-Jrr"/>
                                 <include reference="3Wn-Ip-GbU"/>
                                 <include reference="aoM-Ov-8PS"/>
                                 <include reference="qbi-aH-p1V"/>
+                                <include reference="BqK-cK-tjd"/>
+                                <include reference="RSi-6F-bK0"/>
                                 <include reference="1pe-gX-uAH"/>
                             </mask>
                         </variation>
